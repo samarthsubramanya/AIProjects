@@ -1,0 +1,1 @@
+https://www.freecodecamp.org/news/how-to-chat-with-your-pdf-using-retrieval-augmented-generation/

@@ -1,0 +1,1 @@
+https://blog.jetbrains.com/pycharm/2026/02/langchain-tutorial-2026/

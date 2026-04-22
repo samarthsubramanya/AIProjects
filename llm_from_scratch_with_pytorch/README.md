@@ -1,0 +1,1 @@
+https://pub.towardsai.net/no-libraries-no-shortcuts-llm-from-scratch-with-pytorch-664c557997ee

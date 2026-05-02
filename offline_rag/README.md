@@ -1,0 +1,1 @@
+https://hackernoon.com/building-a-rag-system-that-runs-completely-offline

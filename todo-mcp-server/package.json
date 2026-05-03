@@ -1,0 +1,26 @@
+{
+  "name": "todo-mcp-server",
+  "version": "1.0.0",
+  "description": "https://www.freecodecamp.org/news/how-to-build-a-to-do-list-mcp-server-using-typescript/",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/server.ts",
+    "start": "node dist/server.js",
+    "auth-server": "tsx src/kinde-auth-server.ts",
+    "setup-db": "tsx src/setup-db.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@kinde-oss/kinde-typescript-sdk": "^2.13.0",
+    "@modelcontextprotocol/sdk": "^1.19.0",
+    "@neondatabase/serverless": "^1.0.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-session": "^1.18.2",
+    "jsonwebtoken": "^9.0.3",
+    "jwks-client": "^2.1.0"
+  }
+}

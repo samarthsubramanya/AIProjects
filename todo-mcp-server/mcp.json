@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "todo-mcp-server": {
+      "command": "node",
+      "args": ["dist/server.js"],
+      "cwd": "/path/to/your/todo-mcp-server",
+      "env": {
+        "DATABASE_URL": "your-neon-connection-string",
+        "KINDE_ISSUER_URL": "<https://your-domain.kinde.com>",
+        "KINDE_CLIENT_ID": "your-client-id",
+        "KINDE_CLIENT_SECRET": "your-client-secret",
+        "JWT_SECRET": "your-jwt-secret-key",
+        "NODE_ENV": "development"
+      }
+    }
+  }
+}
